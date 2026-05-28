@@ -3,9 +3,9 @@ name: MyFirstWorkflow
 on: push
 
 jobs:
- hello:
-  runs:-on: ubuntu-latest
+  hello:
+    runs-on: ubuntu-latest
 
-  steps:
-   -name: Print Message
-   run: echo "Hello sharad"
+    steps:
+      - name: Print Message
+        run: echo "Hello sharad"
