@@ -8,3 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello world"
+      - run: echo "Sharad"
+      - run: echo "Kushwah"
