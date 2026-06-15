@@ -11,5 +11,5 @@ jobs:
       - uses: actions/checkout@v4
       - run: pwd
       - run: ls
-      - name: run File
+      - name: runIndex
       - run: cat index.js
