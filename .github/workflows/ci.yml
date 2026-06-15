@@ -1,4 +1,4 @@
-name: New Changes
+name: "New CHnages"
 
 on:
   push:
@@ -6,16 +6,13 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-
+    
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Print Working Directory
-        run: pwd
+      - run: pwd
+      - run: ls
 
-      - name: List Files
-        run: ls
-
-      - name: Show Index File
+      - name: runIndex
         run: cat index.js
